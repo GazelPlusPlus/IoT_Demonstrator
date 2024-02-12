@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Windrow1System1</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<header>
+  <div class="name">
+    <h1>ALYA</h1>
+  </div>
+  <div class="title">
+    <a href="index.html">
+      <h1>WINDROWS MONITOR</h1>
+    </a>
+  </div>
+  <div class="data-info">
+    <h1>Optimize Composting, Cultivate Excellence</h1>
+    <p>Observe composting conditions to obtain better compost</p>
+  </div>
+</header>
+<body>
+  <div class="windrows-container">
+    <p class="windrows-container-text">WINDROW1<br></br> Please choose your sensor in this system or in an other system.</p>
+    <div class="depthline">
+      <p>SYSTEM1</p>
+      <div class="arrow-line">
+        <div class="marker" id="windrow1system1device1" onclick="printDashboard('windrow1system1device1')" style="top: 20.33%;"></div>
+        <div class="marker" id="windrow1system1device2" onclick="printDashboard('windrow1system1device2')" style="top: 53.33%;"></div>
+        <div class="marker" id="windrow1system1device3" onclick="printDashboard('windrow1system1device3')" style="top: 86.66%;"></div>
+      </div>
+      <div class="arrow-down"></div>
+    </div>
+    <div class="depthline">
+      <p>SYSTEM2</p>
+      <div class="arrow-line">
+        <div class="marker" style="top: 20.33%;"></div>
+        <div class="marker" style="top: 53.33%;"></div>
+        <div class="marker" style="top: 86.66%;"></div>
+      </div>
+      <div class="arrow-down"></div>
+    </div>
+    <div class="depthline">
+      <p>SYSTEM3</p>
+      <div class="arrow-line">
+        <div class="marker" style="top: 20.33%;"></div>
+        <div class="marker" style="top: 53.33%;"></div>
+        <div class="marker" style="top: 86.66%;"></div>
+      </div>
+      <div class="arrow-down"></div>
+    </div>
+  </div>
+  <div class="visualisation-message">
+    <h1>SELECT ONE SENSOR TO VISUALIZE DATA</h1>
+  </div>
+  
+  
+  <iframe id="dashboard" src="" frameborder="0" style="clip-path: inset(80px 0 0 0); margin-top: -80px;"></iframe>
+
+  <script src="script.js"></script>
+</body>
+</html>

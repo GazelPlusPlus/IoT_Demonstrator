@@ -1,0 +1,106 @@
+header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('https://www.shutterstock.com/image-vector/seamless-vector-repeating-pattern-hand-260nw-1550870165.jpg');
+  opacity: 0.5;
+}
+
+.name {
+  transform: rotate(-90deg);
+}
+
+
+
+.data-info h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.data-info p {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #6abf69;
+}
+
+
+.windrows-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  background-color: #6abf69;
+}
+
+
+
+.windrows-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.windrow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 8%;
+  margin: 3%;
+  border: 1px solid black;
+  background-image: url('https://cdn.shoplightspeed.com/shops/643856/files/32164769/1652x1652x2/terre-jardin-compost-1vg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.windrow-name {
+  float: left;
+  margin-right: -10px;
+}
+
+.visualisation-message {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+
+.system-point {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.top-point {
+  left: 5%;
+  top: 33%;
+}
+
+.bottom-point {
+  left: 47%;
+  top: 33%;
+}
+
+.center-point {
+  left: 90%;
+  top: 33%;
+}
